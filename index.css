@@ -1,5 +1,5 @@
 .frame .calories{
-    width: 430px;
+    width: 100%;
     height: 200px;
     box-shadow: 0px 0px 25px 8px #00000060;
     border-radius: 0% 0% 20px 20px;
@@ -12,8 +12,9 @@
 }
 .frame .calories h1{
     font-size: 60px;
-    font-weight: 300;
+    font-weight: 600;
     letter-spacing: 5px;
+    opacity: 90%;
 }
 .frame .calories h2{
     font-size: 25px;
@@ -36,84 +37,55 @@
     width: 100%;
     position: relative;
 }
-.percentage .minory{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap: 10px;
-}
 .percentage .object{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
     width: 100%;
     position: relative;
     background-color: var(--o1dp);
+    border-radius: 0px 20px 20px 0px;
 }
 .percentage .object h2{
     position: absolute;
     font-size: 60px;
     color: var(--o8dp);
+    right: 30px;
 }
 .percentage .object span{
     font-size: 45px;
     font-weight: 800;
 }
-.percentage .fats{
-    align-items: flex-start;
-    width: 60%;
-    border-radius: 0px 20px 20px 0px;
-}
-.percentage .fats h2{
-    right: 30px;
-}
-.percentage .protein{
-    align-items: flex-end;
-    width: 40%;
-    border-radius: 20px 0px 0px 20px;
-    height: 100%;
-}
-.percentage .protein2{
-    position: absolute;
-    right: 0;
-    bottom: 30px;
-    width: 25%;
-    height: calc(50% - 25px);
-    border-radius: 0px 0px 0px 20px;
-}
-.percentage .carbohidrates{
-    width: calc(75% - 10px);
-    border-radius: 0px 20px 20px 0px;
-}
-.percentage .carbohidrates h2{
-    right: 30px;
-}
-.percentage .carbohidrates{
-    align-items: flex-start;
-}
 .percentage .object h5{
     position: absolute;
-    right: 30px;
+    left: 82px;
     font-size: 23px;
-    color: var(--secondary);
+    color: var(--white);
     opacity: 0.6;
     font-weight: 700;
 }
-.percentage .protein h5{
-    left: 30px;
-    color: var(--main);
-    right: unset;
-}
-.percentage .fats h5{
-    right: 80px;
-    color: var(--third);
-}
 .percentage .line{
-    height: 2px;
-    border-radius: 1px;
+    height: 1px;
+    border-radius: 0.5px;
+    background-color: var(--main);
+    width: 42px;
+    opacity: 90%;
+}
+.percentage .object h3{
+    font-size: 18px;
+    opacity: 80%;
+    width: 42px;
+}
+.percentage .object h4{
+    font-size: 16px;
+    opacity: 70%;
+    width: 42px;
+}
+.percentage .fats .line{
     background-color: var(--third);
-    width: 60px;
+}
+.percentage .protein .line{
+    background-color: var(--secondary);
 }
