@@ -46,7 +46,12 @@
     width: 100%;
     position: relative;
     background-color: var(--o1dp);
-    border-radius: 0px 20px 20px 0px;
+}
+.percentage .fats{
+    border-radius: 20px 20px 0px 0px;
+}
+.percentage .protein{
+    border-radius: 0px 0px 20px 20px;
 }
 .percentage .object h2{
     position: absolute;
@@ -61,7 +66,7 @@
 .percentage .object h5{
     position: absolute;
     left: 85px;
-    font-size: 19px;
+    font-size: 17px;
     color: var(--white);
     opacity: 0.7;
     font-weight: 700;
@@ -88,4 +93,39 @@
 }
 .percentage .protein .line{
     background-color: var(--secondary);
+}
+.meal{
+    height: calc(100% - 298px - 329px - 20px);
+    background-color: var(--o1dp);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.meal h2{
+    font-size: 25px;
+    opacity: 80%;
+    font-weight: 600;
+}
+.meal .circle{
+    height: 83px;
+    width: 83px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid var(--main);
+    right: 20%;
+    opacity: 0.9;
+}
+.meal .c1{
+    border: 3px solid var(--third);
+    top: 6%;
+    right: 5%;
+}
+.meal .c3{
+    border: 3px solid var(--secondary);
+    bottom: 6%;
+    right: 10%;
 }
