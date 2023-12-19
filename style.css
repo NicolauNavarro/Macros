@@ -77,6 +77,7 @@ body{
     opacity: 60%;
     transition: 0.2s ease;
     z-index: 11;
+    cursor: pointer;
 }
 .frame .nav-bar .active{
     opacity: 30%;
@@ -86,11 +87,25 @@ body{
     align-items: center;
     justify-content: flex-start;
     flex-direction: column;
-    min-height: 100%;
+    height: 100%;
     width: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
     gap: 10px;
     padding-bottom: 93px;
+    position: absolute;
+    transition: 0.5s ease;
+    left: 0;
 }
-
+#foodpage{
+    left: 100%;
+}
+#datapage{
+    left: 200%;
+}
+#chartpage{
+    left: -100%;
+}
+#userpage{
+    left: -200%;
+}

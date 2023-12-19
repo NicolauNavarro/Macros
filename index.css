@@ -46,6 +46,7 @@
     width: 100%;
     position: relative;
     background-color: var(--o1dp);
+    cursor: pointer;
 }
 .percentage .fats{
     border-radius: 20px 20px 0px 0px;
@@ -105,15 +106,15 @@
     border-radius: 20px;
     position: relative;
     min-height: 120px;
+    cursor: pointer;
 }
 .meal h2{
-    font-size: 25px;
-    opacity: 80%;
+    font-size: 23px;
+    opacity: 75%;
     font-weight: 600;
 }
 .meal .circle{
     height: 50%;
-    width: 10px;
     position: absolute;
     border-radius: 50%;
     border: 3px solid var(--main);
@@ -128,5 +129,6 @@
 .meal .c3{
     border: 3px solid var(--secondary);
     bottom: 6%;
-    right: 10%;
+    right: 8%;
 }
+
